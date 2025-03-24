@@ -1,0 +1,27 @@
+Word data:
+----------
+Word                Length    (i,j)     Direction 
+joaquim             7         1,1       DownRight 
+maria               5         7,1       Right     
+antonio             7         14,6      Up        
+pedro               5         1,12      Left      
+miguel              6         4,9       Right     
+arlindo             7         1,2       DownRight 
+josefina            8         15,7      Up        
+telmo               5         9,13      Left      
+
+J A _ _ _ _ _ O R D E P _ _ _ 
+_ O R _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ A L _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ Q I _ _ _ M I G U E L _ 
+_ _ _ _ U N _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ I D _ _ _ _ _ _ _ _ 
+M A R I A _ M O _ _ _ _ _ _ _ 
+_ _ _ _ _ O A _ _ _ _ _ _ _ _ 
+_ _ _ _ _ I N _ O M L E T _ _ 
+_ _ _ _ _ N I _ _ _ _ _ _ _ _ 
+_ _ _ _ _ O F _ _ _ _ _ _ _ _ 
+_ _ _ _ _ T E _ _ _ _ _ _ _ _ 
+_ _ _ _ _ N S _ _ _ _ _ _ _ _ 
+_ _ _ _ _ A O _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ J _ _ _ _ _ _ _ _ 

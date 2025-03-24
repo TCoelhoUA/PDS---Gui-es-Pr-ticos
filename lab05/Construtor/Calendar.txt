@@ -1,0 +1,3 @@
+A função createCalendar(TimeZone,Locale) funciona como uma factory que devolve tipos diferentes de Calendar dependendo dos argumentos
+Existe um método clone() que devolve um objeto igual ao da instância que chamou o método o que sugere um padrão prototype.
+Existem muitos métodos set overloaded que poderia ser feitos através de um builder como alternativa.
