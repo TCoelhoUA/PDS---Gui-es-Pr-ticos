@@ -1,0 +1,116 @@
+<mxfile host="65bd71144e">
+    <diagram id="xGdC6VVCsGw35KXFJoo1" name="Page-1">
+        <mxGraphModel dx="1983" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" style="edgeStyle=none;html=1;endArrow=block;endFill=0;dashed=1;dashPattern=8 8;endSize=15;" parent="1" source="8" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="ContactList" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="260" width="260" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8" vertex="1">
+                    <mxGeometry y="29" width="260" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;- contacts : List&amp;lt;Contact&amp;gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;- contactsStorage : ContactsStorageInterface&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="8" vertex="1">
+                    <mxGeometry y="54" width="260" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;endSize=15;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" parent="1" source="17" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="ContactsBinary" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="720" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="17" vertex="1">
+                    <mxGeometry y="29" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="17" vertex="1">
+                    <mxGeometry y="54" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;endSize=15;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" parent="1" source="20" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="252" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="ContactsText" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-160" y="720" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="20" vertex="1">
+                    <mxGeometry y="29" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="20" vertex="1">
+                    <mxGeometry y="54" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;endSize=15;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" parent="1" source="23" target="49" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="388" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="ContactsJSON" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="720" width="280" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="23" vertex="1">
+                    <mxGeometry y="29" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="23" vertex="1">
+                    <mxGeometry y="54" width="280" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Main" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="-160" y="260" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="11" vertex="1">
+                    <mxGeometry y="29" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="- contacts : ContactList" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="11" vertex="1">
+                    <mxGeometry y="54" width="240" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;endArrow=diamondThin;endFill=0;endSize=26;" parent="1" source="49" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="500" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="Contact" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="260" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&amp;lt;&amp;lt;class&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="36" vertex="1">
+                    <mxGeometry y="29" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;- name : String&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;- number : int&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="36" vertex="1">
+                    <mxGeometry y="54" width="240" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;endArrow=diamondThin;endFill=0;endSize=26;" parent="1" source="8" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;endArrow=diamondThin;endFill=0;endSize=23;" parent="1" source="36" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.tutorialspoint.com/design_pattern/images/bridge_pattern_uml_diagram.jpg;" parent="1" vertex="1">
+                    <mxGeometry x="-500" y="-60" width="560" height="293" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="ContactsInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="160" width="320" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="42" vertex="1">
+                    <mxGeometry y="29" width="320" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ openAndLoad(ContactsStorageInterface) : void&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ saveAndClose() : void&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ saveAndClose(ContactsStorageInterface) : void&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ exist(Contact) : boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ getByName(Contact) : Contact&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ add(Contact) : boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ remove(Contact) : boolean&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="42" vertex="1">
+                    <mxGeometry y="54" width="320" height="126" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="ContactsStorageInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="500" width="240" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="49" vertex="1">
+                    <mxGeometry y="29" width="240" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="+ loadContacts() :&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;List&amp;lt;Contact&amp;gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ saveContacts(List&amp;lt;Contact&amp;gt;) : boolean&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="49" vertex="1">
+                    <mxGeometry y="54" width="240" height="46" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
